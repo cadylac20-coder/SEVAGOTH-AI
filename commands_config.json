@@ -1,0 +1,117 @@
+[
+  {
+    "name": "show_history",
+    "triggers": ["show my history", "my command history"],
+    "handler": "show_history"
+  },
+  {
+    "name": "wikipedia_search",
+    "triggers": ["wikipedia"],
+    "handler": "wikipedia_search"
+  },
+  {
+    "name": "open_youtube",
+    "triggers": ["open youtube", "i am bored"],
+    "handler": "open_youtube"
+  },
+  {
+    "name": "open_google",
+    "triggers": ["open google"],
+    "handler": "open_google"
+  },
+  {
+    "name": "open_stackoverflow",
+    "triggers": ["open stackoverflow", "help in coding"],
+    "handler": "open_stackoverflow"
+  },
+  {
+    "name": "tell_time",
+    "triggers": ["the time"],
+    "handler": "tell_time"
+  },
+  {
+    "name": "tell_joke",
+    "triggers": ["joke"],
+    "handler": "tell_joke"
+  },
+  {
+    "name": "check_weather",
+    "triggers": ["weather"],
+    "handler": "check_weather"
+  },
+  {
+    "name": "give_directions",
+    "triggers": ["direction", "how to get to"],
+    "handler": "give_directions"
+  },
+  {
+    "name": "switch_language",
+    "triggers": ["switch to", "respond in", "speak in"],
+    "handler": "switch_language"
+  },
+  {
+    "name": "create_reminder",
+    "triggers": ["set a reminder", "remind me"],
+    "handler": "create_reminder"
+  },
+  {
+    "name": "show_reminders",
+    "triggers": ["list my reminders", "what are my reminders"],
+    "handler": "show_reminders"
+  },
+  {
+    "name": "run_virus_scan",
+    "triggers": ["check for viruses", "run security scan"],
+    "handler": "run_virus_scan"
+  },
+  {
+    "name": "city_topography",
+    "triggers": ["topography of", "terrain of"],
+    "handler": "city_topography"
+  },
+  {
+    "name": "who_are_you",
+    "triggers": ["who are you", "what are you"],
+    "handler": "who_are_you"
+  },
+  {
+    "name": "are_you_alive",
+    "triggers": ["are you alive"],
+    "handler": "are_you_alive"
+  },
+  {
+    "name": "say_thanks",
+    "triggers": ["thank you"],
+    "handler": "say_thanks"
+  },
+  {
+    "name": "who_created_you",
+    "triggers": ["who created you", "how were you made"],
+    "handler": "who_created_you"
+  },
+  {
+    "name": "favourite_movie",
+    "triggers": ["what is your favourite movie", "do you like movies"],
+    "handler": "favourite_movie"
+  },
+  {
+    "name": "meaning_of_life",
+    "triggers": ["meaning of life"],
+    "handler": "meaning_of_life"
+  },
+  {
+    "name": "favourite_scientist",
+    "triggers": ["who is your favourite scientist"],
+    "handler": "favourite_scientist"
+  },
+  {
+    "name": "generate_image",
+    "triggers": ["generate image"],
+    "handler": "generate_image_handler"
+  },
+  {
+    "name": "exit_sevagoth",
+    "triggers": ["exit", "quit", "goodbye"],
+    "handler": "exit_sevagoth"
+  }
+]

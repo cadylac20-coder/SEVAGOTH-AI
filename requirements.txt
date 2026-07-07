@@ -1,0 +1,16 @@
+python-dotenv==1.2.2
+requests==2.33.1
+opencv-python==4.13.0.92
+pyttsx3==2.90
+SpeechRecognition==3.10.4
+wikipedia==1.4.0
+pyjokes==0.8.3
+openai==1.55.3
+inflect==7.4.0
+
+# Optional - only needed for translate_and_speak() in modules/utilities.py
+# googletrans==4.0.0rc1
+
+# Note: pyttsx3's default "sapi5" engine (see config.py TTS_ENGINE) is
+# Windows-only. On macOS/Linux, switch TTS_ENGINE to "nsss" or "espeak"
+# respectively, or pyttsx3 will fail to initialize a voice.
