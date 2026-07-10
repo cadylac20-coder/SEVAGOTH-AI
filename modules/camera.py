@@ -1,6 +1,6 @@
 """
 SEVAGOTH Camera & Vision Module
-ONE VideoCapture — face detection + environment + ominous HUD overlay
+ONE VideoCapture — face detection + environment + unique HUD
 """
 
 import cv2
@@ -145,7 +145,7 @@ def _timestamp():
     return datetime.datetime.now().strftime("%Y.%m.%d  %H:%M:%S.%f")[:-3]
 
 
-def vision_system():
+def start_vision_systems():
     """
     Single vision loop: camera feed + face detection + ominous HUD.
     Press 'q' to close the display window.
@@ -305,7 +305,7 @@ def vision_system():
 
 # ── Aliases ────────────────────────────────────────────────────────────────────
 def camera_eye():
-    vision_system()
+    start_vision_systems()
 
 def detect_faces():
-    vision_system()
+    start_vision_systems()
